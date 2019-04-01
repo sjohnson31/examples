@@ -1,7 +1,7 @@
 # Django
 
 This is an example configuration for a django project, running with gunicorn.
-At the moment, caddy doesn't support uwsgi protocol, and the best option, 
+At the moment, caddy doesn't support uwsgi protocol, and the best option 
 is to proxy the requests to the app server.
 
 1. Install gunicorn in your app environment: `pip install gunicorn`
